@@ -1,31 +1,75 @@
-#softskill {
-  background-color: #ff26a4;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
 }
 
-.skill-card {
-  background-color: aqua;
-
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#apropos{
-  background-color: blueviolet;
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#navbar {
+  display: flex;              
+  gap: 15px;                  
+  flex-wrap: wrap;           
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+  transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 900px;
+}
+
+.skill-card, .tech, .projet {
+  background-color: #eee;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#realisation {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 #technologie {
-  background-color: #ff00e6;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.contact{
-  background-color: #53a562;
+.tech {
+  flex: 1 1 250px; 
 }
 
-body{
-  background-color: #fbfb48;
-}
-#realisation{
-  background-color: #ff0019;
-}
 
-#navbar{
-  background-color: darkorange;
-}
+
+
+
